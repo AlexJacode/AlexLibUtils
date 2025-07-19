@@ -4,8 +4,10 @@
 
 ### Setup  
 Run `g++ -o /AlexLibUtils/inject inject.cpp`
+<p></p>
 Run `g++ -o /AlexLibUtils/canonize canonize.cpp`
 
 ### Bootstrapping With canonize 
 Run `./canonize canonize ./canonize`
+<p></p>
 Run `./canonize inject ./inject`
