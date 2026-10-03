@@ -4,7 +4,7 @@
 #include <cstdio>  
 
 int main(int argc, char *argv[]) { 
-	if (argc == 1 || argv[1] == "--help") { 
+	if (argc == 2 || argv[1] == "--help") { 
 		std::cout << "INJECT \n\n" << "Usage: inject [File] [Line Number] [Content] \n";
 		return -3; // Help Command 
 	} 
@@ -15,7 +15,8 @@ int main(int argc, char *argv[]) {
 	std::ifstream file(argv[1]);
         std::string* pHemp = new std::string("temp_"); 
 	*pHemp+=argv[1]; 
-	const char* THEMP = (*pHemp).c_str(); 
+	char* THEMP = new char[(*pHemp).size()+1]; 
+	strcpy(THEMP, (*pHemp).c_str()); 
 	delete pHemp; 
 	std::ofstream tfile(THEMP); 
 	long num = std::stoi(argv[2]); 
@@ -44,6 +45,6 @@ int main(int argc, char *argv[]) {
 	file.close(); 
 	tfile.close();  
 	std::rename(THEMP, argv[1]); 
+	delete THEMP; 
 	return 0; 
 } 
-
