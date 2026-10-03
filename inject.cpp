@@ -1,6 +1,7 @@
 #include <iostream> 
 #include <fstream> 
 #include <string> 
+#include <cstring> 
 #include <cstdio>  
 
 int main(int argc, char *argv[]) { 
