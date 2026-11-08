@@ -3,10 +3,15 @@
 <p align="center"> Originally Compiled With G++ (GNU/GCC) 
 
 ### Setup  
-Run `g++ -o /AlexLibUtils/inject inject.cpp` <br>
-Run `g++ -o /AlexLibUtils/canonize canonize.cpp` <br>
+Run `g++ -o AlexLibUtils/inject AlexLibUtils/inject.cpp` <br>
+Run `g++ -o AlexLibUtils/canonize AlexLibUtils/canonize.cpp` <br>
 
 - Repeat For Any Other Binaries. -O3 Optimization Level Tested For Both inject And canonize As Working <br>
+
+### .RS Portions (Rewrites) 
+<p align="center"> Originally Compiled With rustc 
+<p align="center"> .RS Setup 
+Run rustc -o AlexLibUtils/rinject AlexLibUtils/rinject.rs 
 
 ### Bootstrapping With canonize 
 Run `./canonize canonize ./canonize` <br>
