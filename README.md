@@ -10,7 +10,7 @@ Run `g++ -o AlexLibUtils/canonize AlexLibUtils/canonize.cpp` <br>
 
 ### .RS Portions (Rewrites) 
 <p align="center"> Originally Compiled With rustc <br> <br> 
-<p align="left"> .RS Setup <br> 
+#### .RS Setup <br> 
 Run rustc -o AlexLibUtils/rinject AlexLibUtils/rinject.rs 
 
 ### Bootstrapping With canonize 
