@@ -36,7 +36,7 @@ fn main() -> std::io::Result<()> {
         contents.push(&nstr); 
         fs::write(&args1, contents.join("\n"))?; 
     } 
-    // fs::write("g.txt", "f* ahh ");
+    // fs::write("g.txt", "f ");
     //let text: String =fs::read_to_string(
     // for j in args { println!("{} \n", j); }
     Ok(()) 
