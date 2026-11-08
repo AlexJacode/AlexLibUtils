@@ -21,7 +21,7 @@ fn main() -> std::io::Result<()> {
         let mut perms = fs::metadata(&path)?.permissions(); 
         perms.set_mode(0o755); 
         fs::set_permissions(path, perms)?;
-        // fs::write("g.txt", "f* ahh ");
+        // fs::write("g.txt", "f* ");
         //let text: String =fs::read_to_string(
         // for j in args { println!("{} \n", j); }
     } 
