@@ -6,7 +6,7 @@ use std::convert::TryInto;
 fn main() -> std::io::Result<()> {
     let args: Vec<String> = env::args().collect();
     if args.len() == 2 && args[1] == "--help" { 
-        println!("RINJECT \n\nUsage: rinject [File] [Line Number] [Content] \n"); 
+        println!("injector \n\nUsage: rinject [File] [Line Number] [Content] \n"); 
         return Ok(()) 
     } 
     else if args.len() < 4 { 
