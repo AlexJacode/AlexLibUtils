@@ -15,7 +15,7 @@ Run `g++ -o AlexLibUtils/canonize AlexLibUtils/canonize.cpp` <br>
 Run `rustc -o AlexLibUtils/rinject AlexLibUtils/rinject.rs` <br> 
 Run `rustc -o AlexLibUtils/canonizer AlexLibUtils/canonize.rs` <br> 
 
-- Repeat For Any Other Binaries. `-C opt-level=3` Optimizations Have Been Tested On `rinject`, `hconvrs` And `canonizer` As Working. <br>
+- Repeat For Any Other Binaries. `-C opt-level=3` Optimization Level Has Been Tested On `rinject`, `hconvrs` And `canonizer` As Working. <br>
 
 
 ### Bootstrapping With canonize 
