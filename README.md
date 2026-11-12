@@ -6,7 +6,7 @@
 Run `g++ -o AlexLibUtils/inject AlexLibUtils/inject.cpp` <br>
 Run `g++ -o AlexLibUtils/canonize AlexLibUtils/canonize.cpp` <br>
 
-- Repeat For Any Other Binaries. -O3 Optimization Level Tested For Both `inject`, `hconvc++` And canonize As Working <br>
+- Repeat For Any Other Binaries. -O3 Optimization Level Was Tested For `inject`, `injectCX`, `hconvc++` And `canonize` As Working <br>
 
 ### <p align="center"> Rust Portions (Rewrites) 
 <p align="center"> Originally Compiled With rustc <br> 
